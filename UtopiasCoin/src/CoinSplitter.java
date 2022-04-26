@@ -2,7 +2,7 @@ import java.util.HashMap;
 
 public class CoinSplitter
 {
-  static int values[] = {1, 7, 10, 12};
+  static int[] values = {1, 7, 10, 12};
   public HashMap<Integer, Integer> history = new HashMap<>();
 
   public int splitCoinDyn(int coin)
