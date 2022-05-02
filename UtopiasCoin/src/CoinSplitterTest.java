@@ -9,7 +9,7 @@ class CoinSplitterTest
     assertEquals(3, myRodSplitter.splitCoinDyn(15));
     assertEquals(3, myRodSplitter.splitCoinDyn(30));
     assertEquals(4, myRodSplitter.splitCoinDyn(43));
-    assertEquals(451, myRodSplitter.splitCoinDyn(5407));
+    assertEquals(247, myRodSplitter.splitCoinDyn(5407));
 
   }
   @org.junit.jupiter.api.Test void findMaxValueRecTest()
